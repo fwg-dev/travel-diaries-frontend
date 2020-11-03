@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import Login from "./components/Login.js"
 
 class App extends React.Component {
+
+  ComponentDidMount(){
+    
+  }
   render (){
     return (
-     "hello I'm React"
+     <Login/>
     );
   }
 }
